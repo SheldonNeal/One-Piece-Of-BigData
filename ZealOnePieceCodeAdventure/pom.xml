@@ -10,7 +10,6 @@
     <version>1.0.0</version>
     <modules>
         <module>spark</module>
-        <module>spark</module>
         <module>flink</module>
         <module>leetcode</module>
         <module>kafka</module>
