@@ -12,12 +12,13 @@
 
     <properties>
         <flink.version>1.6.1</flink.version>
-        <flink.scope>provided</flink.scope>
+        <flink.scope>compile</flink.scope>
         <scala.binary.version>2.11</scala.binary.version>
         <commons.io.version>2.5</commons.io.version>
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>

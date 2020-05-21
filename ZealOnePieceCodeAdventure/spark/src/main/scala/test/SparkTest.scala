@@ -1,7 +1,5 @@
 package test
 
-import java.util.logging.{Level, Logger}
-
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
@@ -16,14 +14,15 @@ object SparkTest {
 //    Logger.getLogger("org.eclipse.jetty.server").setLevel(Level.OFF)
     sc.setLogLevel("ERROR")
     //日期 用户 年龄
-    val path="C:\\Users\\happy\\Desktop\\log.txt"
-//    val path="C:\\Users\\happy\\Desktop\\test.txt"
+    val path="/Users/zhangjiale/Desktop/test"
     val rdd = sc.textFile(path)
-//    getTopkValues(rdd)
 
-    getRemainUsers(rdd)
+
+
 
   }
+
+
 
   /**
     * 留存用户的计算
