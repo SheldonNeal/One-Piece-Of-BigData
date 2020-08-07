@@ -11,7 +11,9 @@
     <artifactId>flink</artifactId>
 
     <properties>
-        <flink.version>1.6.1</flink.version>
+        <flink.version>1.10.1</flink.version>
+        <flink.table.version>1.7.2</flink.table.version>
+       <!-- <flink.version>1.6.1</flink.version>-->
         <flink.scope>compile</flink.scope>
         <scala.binary.version>2.11</scala.binary.version>
         <commons.io.version>2.5</commons.io.version>
@@ -55,7 +57,7 @@
         <dependency>
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-table_2.11</artifactId>
-            <version>${flink.version}</version>
+            <version>${flink.table.version}</version>
             <scope>${flink.scope}</scope>
         </dependency>
 

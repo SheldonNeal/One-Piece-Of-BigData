@@ -15,6 +15,9 @@
         <module>kafka</module>
         <module>java</module>
         <module>example</module>
+        <module>kudu</module>
+        <module>clickhouse</module>
+        <module>kuaishou</module>
     </modules>
 
     <properties>
