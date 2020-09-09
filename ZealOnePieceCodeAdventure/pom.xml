@@ -18,6 +18,7 @@
         <module>kudu</module>
         <module>clickhouse</module>
         <module>kuaishou</module>
+        <module>algorithm</module>
     </modules>
 
     <properties>

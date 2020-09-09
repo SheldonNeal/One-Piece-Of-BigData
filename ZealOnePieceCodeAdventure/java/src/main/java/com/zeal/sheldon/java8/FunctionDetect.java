@@ -1,4 +1,4 @@
-package com.zeal.sheldon.task.java8;
+package com.zeal.sheldon.java8;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;

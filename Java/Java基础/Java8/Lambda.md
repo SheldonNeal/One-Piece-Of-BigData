@@ -1,2 +1,0 @@
-##Java8特性1：Lambda表达式
-参考链接：http://lucida.me/blog/java-8-lambdas-insideout-language-features/?nsukey=nxO%2BOzInSp7juTbGP1li3qHXYBENcYxrrtgZxWY4GPkP3fV1PSM9ikm7uDCwR5N0oT3zs4eekQQJ%2BhB0yXXtdJz0dnxMl9%2FJjfQrH%2B2OsQQuoA4V5MsTqoSLMdBC%2BUiLLgqrfRrxjmdaenVAJxGBsLa58gMKPWQKvuakiYiL0%2F5CvPYzT1VuDBr06WDreJjio1Mrk1cmODMMfCbXVY6%2B4Q%3D%3D  
