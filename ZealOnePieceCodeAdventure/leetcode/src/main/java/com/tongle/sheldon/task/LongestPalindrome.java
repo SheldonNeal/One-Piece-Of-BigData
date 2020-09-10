@@ -1,7 +1,7 @@
 package com.tongle.sheldon.task;
 
 /**
- * @author zhangjiale
+ * @author Tongle
  * @date 2020-05-05
  * @description 最长回文串
  * 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。

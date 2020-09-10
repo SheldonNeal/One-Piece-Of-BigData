@@ -23,7 +23,7 @@ import org.apache.kudu.client.RowResult;
 import org.apache.kudu.client.RowResultIterator;
 
 /**
- * @Author zhangjiale <zjlsmiles@126.com>
+ * @Author Tongle
  * @Description kudu初尝试
  * Created on 2020-07-01
  */

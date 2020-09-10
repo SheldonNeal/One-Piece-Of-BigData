@@ -4,7 +4,7 @@ import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
 /**
- * @Author zhangjiale <zjlsmiles@126.com>
+ * @Author Tongle
  * @Description flink上下文环境的初始化
  * Created on 2020-06-10
  */

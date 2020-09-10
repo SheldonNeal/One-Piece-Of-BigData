@@ -14,8 +14,7 @@ object SparkTest {
 //    Logger.getLogger("org.eclipse.jetty.server").setLevel(Level.OFF)
     sc.setLogLevel("ERROR")
     //日期 用户 年龄
-    val path="/Users/zhangjiale/Desktop/test"
-    val rdd = sc.textFile(path)
+
 
 
 

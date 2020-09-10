@@ -1,7 +1,7 @@
 package com.zeal.sheldon.entity;
 
 /**
- * @author zhangjiale <zjlsmiles@126.com>
+ * @authorTongle
  * Created on 2020-05-19
  */
 public class TestRecord {

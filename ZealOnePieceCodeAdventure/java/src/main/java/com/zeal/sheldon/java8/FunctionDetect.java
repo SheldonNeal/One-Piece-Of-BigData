@@ -4,7 +4,7 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 
 /**
- * @Author zhangjiale <zjlsmiles@126.com>
+ * @Author Tongle
  * @Description Lambda表达式的学习
  * Created on 2020-09-08
  * Lambda表达式传递的是行为

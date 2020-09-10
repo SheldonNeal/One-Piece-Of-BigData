@@ -6,7 +6,7 @@ import avro.shaded.com.google.common.collect.ImmutableSet;
 import sun.net.util.IPAddressUtil;
 
 /**
- * @Author zhangjiale<zjlsmiles@126.com>
+ * @Author Tongle
  * @Description TODO
  * Created on 2020-05-26
  */

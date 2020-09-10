@@ -14,14 +14,14 @@ import nl.basjes.parse.useragent.UserAgentAnalyzer;
 
 
 /**
- * @author zhangjiale <zjlsmiles@126.com>
+ * @author Tongle
  * @Description 第三方工具解析UA 测试 效率测试 准确性测试
  * Created on 2020-05-18
  */
 public class UserAgentAnalysis {
     public static void main(String[] args) throws Exception {
         final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
-        DataSet<String> dataSet = env.readTextFile("/Users/zhangjiale/Desktop/aa").setParallelism(1);
+        DataSet<String> dataSet = env.readTextFile("/Users/Desktop/aa").setParallelism(1);
 
         long start = System.currentTimeMillis();
         UserAgentAnalyzer uaa = UserAgentAnalyzer
@@ -51,7 +51,7 @@ public class UserAgentAnalysis {
                 String userAgent = parseUserAgent(uaa, ua);
                 return userAgent.toString();
             }
-        }).print();//.writeAsText("/Users/zhangjiale/Desktop/t2");
+        }).print();
 
         long end = System.currentTimeMillis();
         System.out.println(end -start);

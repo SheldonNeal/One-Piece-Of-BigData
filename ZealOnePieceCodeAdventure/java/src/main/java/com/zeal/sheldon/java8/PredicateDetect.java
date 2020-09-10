@@ -6,7 +6,7 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 /**
- * @Author zhangjiale <zjlsmiles@126.com>
+ * @Author Tongle
  * @Description Predicate接口传入一个参数，返回一个布尔值
  * Created on 2020-09-09
  */
