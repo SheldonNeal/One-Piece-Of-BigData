@@ -12,7 +12,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * @Author zhangjiale <zhangjiale@kuaishou.com>
+ * @Author zhangjiale<zjlsmiles@126.com>
  * @Description TODO
  * Created on 2020-08-06
  */

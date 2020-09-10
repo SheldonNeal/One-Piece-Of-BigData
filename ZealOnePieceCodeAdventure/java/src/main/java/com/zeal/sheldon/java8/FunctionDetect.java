@@ -4,7 +4,7 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 
 /**
- * @Author zhangjiale <zhangjiale@kuaishou.com>
+ * @Author zhangjiale <zjlsmiles@126.com>
  * @Description Lambda表达式的学习
  * Created on 2020-09-08
  * Lambda表达式传递的是行为
@@ -25,7 +25,6 @@ public class FunctionDetect {
         functionDetect.computeBiFunction(5,3,(a,b)-> a / b);
 
         functionDetect.addThenBiFunction(3,2,(a,b)-> a * b,num->num * num);
-
     }
 
     /**

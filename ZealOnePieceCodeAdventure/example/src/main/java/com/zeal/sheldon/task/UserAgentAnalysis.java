@@ -14,7 +14,7 @@ import nl.basjes.parse.useragent.UserAgentAnalyzer;
 
 
 /**
- * @author zhangjiale <zhangjiale@kuaishou.com>
+ * @author zhangjiale <zjlsmiles@126.com>
  * @Description 第三方工具解析UA 测试 效率测试 准确性测试
  * Created on 2020-05-18
  */
