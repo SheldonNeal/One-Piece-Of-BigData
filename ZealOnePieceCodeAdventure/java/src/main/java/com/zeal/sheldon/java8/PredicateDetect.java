@@ -14,11 +14,15 @@ public class PredicateDetect {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1, 3, 4, 67, 8);
         PredicateDetect predicateDetect = new PredicateDetect();
-        list.stream().filter(num->num>10).collect(Collectors.toList()).forEach(value-> System.out.println(value));
+        predicateDetect.conditionFilter(list,num->num % 2 ==0);
 
 
     }
-    public void isPredicate(int a , Predicate<Integer> predicate){
-        predicate.test(a);
+    public void conditionFilter(List<Integer> list , Predicate<Integer> predicate){
+       for (Integer num:list){
+           if(predicate.test(num)){
+               System.out.println(num);
+           }
+       }
     }
 }
