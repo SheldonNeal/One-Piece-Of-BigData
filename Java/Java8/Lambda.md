@@ -1,6 +1,6 @@
-##Java8特性1：Lambda表达式
+# Java8特性1：Lambda表达式
 参考链接：http://lucida.me/blog/java-8-lambdas-insideout-language-features/?nsukey=nxO%2BOzInSp7juTbGP1li3qHXYBENcYxrrtgZxWY4GPkP3fV1PSM9ikm7uDCwR5N0oT3zs4eekQQJ%2BhB0yXXtdJz0dnxMl9%2FJjfQrH%2B2OsQQuoA4V5MsTqoSLMdBC%2BUiLLgqrfRrxjmdaenVAJxGBsLa58gMKPWQKvuakiYiL0%2F5CvPYzT1VuDBr06WDreJjio1Mrk1cmODMMfCbXVY6%2B4Q%3D%3D  
-###函数式接口  
+## 函数式接口  
 1. 可以在接口上声明@FunctionalInterface是一个函数式接口  
 2. 接口中只有一个抽象方法，也会自动识别为函数式接口
 3. 函数式接口中有且只有一个抽象方法，所以使用lambda表达式的时候，方法体默认就是实现的接口中的抽象方法

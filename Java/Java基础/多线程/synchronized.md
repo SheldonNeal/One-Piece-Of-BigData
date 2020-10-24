@@ -1,4 +1,4 @@
-##synchronized
+#synchronized
 + 是可重入锁
 + 锁升级的设计  
 偏向锁 --> 自旋锁（轻量级锁） --> 重量级锁  

@@ -1,1 +1,1 @@
-##读取Resources下的配置文件
+# 读取Resources下的配置文件

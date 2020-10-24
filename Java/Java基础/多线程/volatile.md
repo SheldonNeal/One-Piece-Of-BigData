@@ -1,4 +1,4 @@
-##volatile
+# volatile
 + 保证线程可见性
           
 MESI  
