@@ -20,7 +20,7 @@ hive针对group by做了一些高级的支持，主要的就是
 1.Grouping function：判断是否字段参与group计算，0表示参与计算，1表示未参与计算  
 2.Grouping__ID function：判断哪些字段参与了group计算，主要区分字段本身为NULL和字段不参与计算（置为NULL）；0表示未参与，1表示参与  
 
-###参数调优  
+### 参数调优  
 hive.new.job.grouping.set.cardinality  
 说明：这个参数决定是否开启新的MR进行分组计算。  
 如果设置值为4，如果参与的计算的维度基数大于4，就会新开启一个MR。
