@@ -10,6 +10,9 @@ hive针对group by做了一些高级的支持，主要的就是
 3. grouping set允许用户对group by字段进行自由组合  
 具体示例如下：  
 
-| 高级sql | 等价sql |
-
+| 高级sql | 等价sql |  
+| :-----:| :---: |
+| select | select |
+| select | select |
+| SELECT a, b, SUM( c ) FROM tab1 GROUP BY a, b GROUPING SETS ( (a, b), a, b, ( ) ) | |
 
