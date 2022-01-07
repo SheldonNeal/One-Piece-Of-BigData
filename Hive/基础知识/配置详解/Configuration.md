@@ -1,5 +1,5 @@
 ## 配置
-hive中有一个配置项：hive.groupby.orderby.position.alias   
+1.hive.groupby.orderby.position.alias   
 
 官方解释：https://cwiki.apache.org/confluence/display/Hive/Configuration+Properties#ConfigurationProperties-hive.groupby.orderby.position.alias  
 
@@ -30,3 +30,6 @@ group by b.pos,
 
 对于order by 也同样适用，可以写order by 1,2来代替原始字段.
 ```
+  
+2.hive.auto.convert.join和hive.optimize.skewjoin存在冲突，有时会导致执行计划有问题，不能同时开  
+待分析原因？
