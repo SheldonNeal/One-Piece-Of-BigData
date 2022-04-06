@@ -18,6 +18,8 @@
         <module>kudu</module>
         <module>clickhouse</module>
         <module>algorithm</module>
+        <module>hive</module>
+        <module>python</module>
     </modules>
 
     <properties>
