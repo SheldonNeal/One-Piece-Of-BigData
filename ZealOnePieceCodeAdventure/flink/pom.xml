@@ -16,7 +16,7 @@
        <!-- <flink.version>1.6.1</flink.version>-->
         <flink.scope>compile</flink.scope>
         <scala.binary.version>2.11</scala.binary.version>
-        <commons.io.version>2.5</commons.io.version>
+        <commons.io.version>2.7</commons.io.version>
     </properties>
 
     <dependencies>
